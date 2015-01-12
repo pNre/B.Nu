@@ -1,0 +1,4 @@
+articles/*
+node_modules
+.DS_Store
+static/images

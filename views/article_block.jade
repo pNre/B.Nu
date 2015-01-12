@@ -1,0 +1,4 @@
+div.title
+    a(href="/a/#{article.id}") #{article.title}
+    div.date= article.date.format('LL')
+div.contents!= marked(article.contents)
