@@ -81,9 +81,6 @@ for own name of controllers
             controller.handle request, reply
     }
 
-#   This cache is used to store the parsed articles
-server.mainCache ?= server.cache 'main', { expiresIn: 3600 * 24 }
-
 #   Plugins registration
 plugins = [ {
     plugin: require __dirname + '/plugins/articles',

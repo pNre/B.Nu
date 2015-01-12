@@ -1,5 +1,5 @@
 {
-  "name": "B",
+  "name": "B.Nu",
   "version": "0.0.1",
   "dependencies": {
     "bluebird": "^2.3.2",
@@ -12,5 +12,6 @@
     "marked": "^0.3.2",
     "moment": "^2.8.2",
     "string": "^1.9.1",
+    "watch": "^0.13.0"
   }
 }
