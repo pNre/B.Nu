@@ -2,15 +2,15 @@
   "name": "B.Nu",
   "version": "0.0.1",
   "dependencies": {
-    "bluebird": "^2.3.2",
+    "bluebird": "^2.6.4",
     "coffee-script": "^1.8.0",
     "findit": "^2.0.0",
-    "hapi": "^6.7.1",
+    "hapi": "^6.11.1",
     "highlight.js": "^8.2.0",
-    "jade": "^1.6.0",
+    "jade": "^1.8.2",
     "lodash": "^2.4.1",
     "marked": "^0.3.2",
-    "moment": "^2.8.2",
+    "moment": "^2.9.0",
     "string": "^1.9.1",
     "watch": "^0.13.0"
   }
