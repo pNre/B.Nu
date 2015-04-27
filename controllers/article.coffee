@@ -6,7 +6,7 @@ class Article
     #   The constructor is only used to get the server object
     constructor: (@server) ->
 
-    handle: (request, @reply) ->
+    handle: (request, @reply) =>
         {id} = request.params
 
         #   Using the articles plugin, get an article with the given id

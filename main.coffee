@@ -77,8 +77,7 @@ for own name of controllers
     server.route {
         method:     method,
         path:       path,
-        handler:    (request, reply) ->
-            controller.handle request, reply
+        handler:    controller.handle
     }
 
 #   Plugins registration

@@ -7,7 +7,7 @@ class Archive
 
     constructor: (@server) ->
 
-    handle: (request, @reply) ->
+    handle: (request, @reply) =>
         {year, month} = request.params
 
         requestedDate = new moment "#{month} #{year}", 'MMM YYYY'
@@ -17,7 +17,7 @@ class Archive
         articles = @server.plugins.articles.all()
         articles
             .filter (article) ->
-                article.date.isSame requestedDate, 'month'
+                article.date.isSame(requestedDate, 'month') and article.date.isSame(requestedDate, 'year')
             .all()
             .then (articles) =>
                 if articles.length > 0

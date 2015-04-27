@@ -1,1 +1,119 @@
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300);@import url(http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/default.min.css);.main-block-element{width:50%;padding-left:25%}body{margin:0;font-family:"HelveticaNeue","Helvetica Neue","HelveticaNeueRoman","HelveticaNeue-Roman","Helvetica Neue Roman",'TeXGyreHerosRegular',"Helvetica","Tahoma","Geneva","Arial",sans-serif}@media only screen and (min-width: 950px) and (max-width: 1128px),only screen and (min-width: 1129px),only screen and (min-width: 530px) and (max-width: 949px){body{font-size:14px}}@media only screen and (max-width: 529px){body{font-size:11.2px}}div.title{text-align:center;font-family:'Josefin Sans',sans-serif;font-weight:200;width:50%;padding-left:25%;padding-top:10px;padding-bottom:10px}@media only screen and (min-width: 950px) and (max-width: 1128px),only screen and (min-width: 1129px),only screen and (min-width: 530px) and (max-width: 949px){div.title{font-size:48px}}@media only screen and (max-width: 529px){div.title{font-size:38.4px}}div.title>div.date{font-family:"HelveticaNeue","Helvetica Neue","HelveticaNeueRoman","HelveticaNeue-Roman","Helvetica Neue Roman",'TeXGyreHerosRegular',"Helvetica","Tahoma","Geneva","Arial",sans-serif;padding-top:10px}@media only screen and (min-width: 950px) and (max-width: 1128px),only screen and (min-width: 1129px),only screen and (min-width: 530px) and (max-width: 949px){div.title>div.date{font-size:14px}}@media only screen and (max-width: 529px){div.title>div.date{font-size:11.2px}}div.title>a:hover{text-decoration:none}div.contents{width:50%;padding-left:25%;padding-top:10px;line-height:1.4}div.navigation{margin-top:0;margin-left:0;margin-bottom:33px;height:33px;line-height:33px;padding-left:10px;padding-right:10px;border-bottom:1px solid #ccc}@media only screen and (min-width: 950px) and (max-width: 1128px),only screen and (min-width: 1129px),only screen and (min-width: 530px) and (max-width: 949px){div.navigation{font-size:14px}}@media only screen and (max-width: 529px){div.navigation{font-size:11.2px}}div.navigation>a{padding-left:10px;padding-right:10px}div.navigation>a:first-child{padding-left:0}a{color:#222;text-decoration:none}a:hover{color:#000;text-decoration:underline}pre.code{background:#f5f5f5;padding:10px;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word}code{background:#f5f5f5;font-family:Consolas,Menlo,Courier,monospace;font-size:14px;padding:2.5px}
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300);
+@import url(http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/default.min.css);
+.main-block-element {
+  width: 50%;
+  padding-left: 25%;
+}
+body {
+  margin: 0;
+  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+@media only screen and (min-width: 950px) and (max-width: 1128px), only screen and (min-width: 1129px), only screen and (min-width: 530px) and (max-width: 949px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 529px) {
+  body {
+    font-size: 11.2px;
+  }
+}
+div.title {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  width: 50%;
+  padding-left: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media only screen and (min-width: 950px) and (max-width: 1128px), only screen and (min-width: 1129px), only screen and (min-width: 530px) and (max-width: 949px) {
+  div.title {
+    font-size: 48px;
+  }
+}
+@media only screen and (max-width: 529px) {
+  div.title {
+    font-size: 38.4px;
+  }
+}
+div.title > div.date {
+  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  padding-top: 10px;
+}
+@media only screen and (min-width: 950px) and (max-width: 1128px), only screen and (min-width: 1129px), only screen and (min-width: 530px) and (max-width: 949px) {
+  div.title > div.date {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 529px) {
+  div.title > div.date {
+    font-size: 11.2px;
+  }
+}
+div.title > a:hover {
+  text-decoration: none;
+}
+div.contents {
+  width: 50%;
+  padding-left: 25%;
+  padding-top: 10px;
+  line-height: 1.4;
+}
+div.navigation {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 33px;
+  height: 33px;
+  line-height: 33px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+}
+@media only screen and (min-width: 950px) and (max-width: 1128px), only screen and (min-width: 1129px), only screen and (min-width: 530px) and (max-width: 949px) {
+  div.navigation {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 529px) {
+  div.navigation {
+    font-size: 11.2px;
+  }
+}
+div.navigation > a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+div.navigation > a:first-child {
+  padding-left: 0;
+}
+a {
+  color: #222;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+pre.code {
+  background: #f5f5f5;
+  padding: 10px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+code {
+  background: #f5f5f5;
+  font-family: Consolas, Menlo, Courier, monospace;
+  font-size: 14px;
+  padding: 2.5px;
+}
+div.separator {
+  height: 30px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+}

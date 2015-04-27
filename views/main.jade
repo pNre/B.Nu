@@ -4,5 +4,7 @@ html(lang="en")
         include head.jade
     body
         include navigation.jade
-        each article in articles
+        each article, index in articles
+            if index > 0
+                div.separator
             include article_block.jade
